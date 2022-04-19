@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import PreFooterDecor from "./components/PreFooterDecor";
+import Footer from "./components/Footer";
 
 export default function App(){
     return(
@@ -13,6 +14,7 @@ export default function App(){
             <Services />
             <Testimonials />
             <PreFooterDecor />
+            <Footer />
         </>
     )
 }

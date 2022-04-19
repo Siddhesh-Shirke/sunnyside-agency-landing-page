@@ -270,3 +270,58 @@ nav a:hover{
     height: 75vh;
 }
 /* Pre Footer Decor styles end */
+
+/* Footer styles start */
+footer{
+    text-align: center;
+    background-color: hsl(168, 71%, 73%);
+    padding: 5rem;
+}
+
+footer h1{
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+    color: hsl(168, 34%, 41%);
+    margin-bottom: 3.5rem;
+    
+}
+
+.footer--nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.footer--nav a{
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0rem;
+    color: hsl(168, 34%, 41%);
+    opacity: 0.25rem;
+    transition: color 250ms ease-in-out;
+}
+
+.footer--nav a:hover{
+    color: hsl(0, 0%, 100%);
+}
+
+.social--media--icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.social--media--icons a{
+    margin-right: 3rem;
+}
+
+.social--media--icons a:hover{
+    color: hsl(0, 0%, 100%);
+}
+/* Footer styles end */
