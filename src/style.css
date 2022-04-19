@@ -242,7 +242,31 @@ nav a:hover{
     grid-template-columns: 25% 25% 25% 25%;
 }
 
-/* .pre--footer-decor img{
-    width: 25%;
-} */
+.img--gallery--milkbottles{
+    background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-milkbottles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.img--gallery--orange{
+    background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-orange.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.img--gallery--cone{
+    background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-cone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.img--gallery--sugarcubes{
+    background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-sugarcubes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
 /* Pre Footer Decor styles end */
