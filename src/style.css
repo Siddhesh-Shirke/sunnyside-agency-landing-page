@@ -82,9 +82,18 @@ nav a:hover{
 /* Header styles end */
 
 /* Hero styles start */
-.hero img{
-    width: 100%;
+.hero{
     height: 100vh;
+    background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-header.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: 50%;
+}
+
+.hero img{
+    position: absolute;
+    top: 42.5%;
+    left: 48.5%;
 }
 
 .hero p{
