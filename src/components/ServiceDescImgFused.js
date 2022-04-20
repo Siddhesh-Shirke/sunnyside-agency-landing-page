@@ -3,6 +3,7 @@ import React from "react";
 export default function ServiceDescImgFused(props){
     const styles = {
         backgroundImage: `URL(${props.url})`,
+        backgroundSize: "cover",
         color: `${props.color}`
     }
 

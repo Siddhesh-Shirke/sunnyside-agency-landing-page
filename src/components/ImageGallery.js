@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function PreFooterDecor(){
+export default function ImageGallery(){
     return(
-        <section className="pre--footer--decor">
+        <section className="img--gallery">
             <div className="img--gallery--milkbottles"></div>
             <div className="img--gallery--orange"></div>
             <div className="img--gallery--cone"></div>
