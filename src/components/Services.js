@@ -19,8 +19,9 @@ export default function Services(){
 
             <ServiceDesc 
             serviceNo="2" 
-            heading="Stand out to the right audience"
-                         text="Using a collaborative formula of designers, researcher, photographers, videographers and copywriters, we'll build and extend your brand in digital places." 
+            heading="Stand out to the right clients"
+                         text="Using a collaborative formula of
+                          designers, researcher, photographers, videographers and copywriters, we'll build and extend your brand in digital places." 
             />
 
             <ServiceDescImgFused 
