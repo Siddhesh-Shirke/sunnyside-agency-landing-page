@@ -9,7 +9,7 @@ export default function Footer(){
         <footer>
             <h1>sunnyside</h1>
             <nav className="footer--nav">
-                <ul>
+                <ul className="footer--nav--ul">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Projects</a></li>
