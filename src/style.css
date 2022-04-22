@@ -22,6 +22,8 @@ a{
 }
 /* Basic styles end */
 
+@media screen and (min-width: 1201px) and (max-width: 1800px) {
+
 /* Header styles start */
 header{
     display: flex;
@@ -42,6 +44,10 @@ header a{
     letter-spacing: 0.25rem;
     color: hsl(0, 0%, 100%);
     margin-left: 2rem;
+}
+
+.hamburger--menu{
+    display: none;
 }
 
 nav ul{
@@ -101,15 +107,16 @@ nav a:hover{
     position: absolute;
     top: 42.5%;
     left: 48.75%;
+    height: 15rem !important;
 }
 
 .hero p{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 5rem;
+    font-size: 5rem !important;
     letter-spacing: 1rem;
     position: absolute;
     top: 25%;
-    left: 27.5%;
+    left: 27.5% !important;
     color: hsl(0, 0%, 100%);
 } 
 /* Hero styles end */
@@ -117,18 +124,24 @@ nav a:hover{
 /* Services styles start */
 .services{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .service--desc{
-    padding-top: 15rem;
-    padding-left: 12.5rem;
-    padding-right: 20rem;
+    padding-top: 15rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.service--img{
+    display: block !important;
 }
 
 .service--desc h1{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
     font-weight: 900;
     letter-spacing: 0.225rem;
     color: hsl(212, 27%, 19%);
@@ -137,7 +150,7 @@ nav a:hover{
 
 .service--desc p{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem !important;
     font-weight: 300;
     letter-spacing: 0.15rem;
     color: hsl(213, 9%, 39%);
@@ -147,7 +160,7 @@ nav a:hover{
 
 .transform--click--here{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem !important;
     font-weight: 900;
     color: hsl(212, 27%, 19%);
     position: relative;
@@ -155,7 +168,7 @@ nav a:hover{
 
 .stand--out--click--here{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem !important;
     font-weight: 900;
     color: hsl(212, 27%, 19%);
     position: relative;
@@ -168,7 +181,7 @@ nav a:hover{
     bottom: 8%;
     width: 110%;
     height: 0.85rem;
-    background-color: hsl(51, 90%, 80%); 
+    background-color: hsl(51, 90%, 80%) !important; 
     z-index: -1;
     border-radius: 10px;
     transition: background-color 250ms ease-in-out;
@@ -181,39 +194,39 @@ nav a:hover{
     bottom: 8%;
     width: 110%;
     height: 0.85rem;
-    background-color: hsl(7, 87%, 78%); 
+    background-color: hsl(7, 87%, 78%) !important; 
     z-index: -1;
     border-radius: 10px;
     transition: background-color 250ms ease-in-out;
 }
 
 .transform--click--here:hover::after{
-    background-color: hsl(51, 100%, 49%);
+    background-color: hsl(51, 100%, 49%) !important;
 }
 
 .stand--out--click--here:hover::after{
-    background-color: hsl(7, 99%, 70%);
+    background-color: hsl(7, 99%, 70%) !important;
 }
 
 .service--Desc--Img--Fused{
     text-align: center;
     height: 90vh;
-    padding-left: 10rem;
-    padding-top: 37.5rem;
-    padding-right: 15rem;
+    padding-left: 10rem !important;
+    padding-top: 35rem !important;
+    padding-right: 15rem !important;
 }
 
 .service--Desc--Img--Fused h1{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
     font-weight: 900;
     letter-spacing: 0.225rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem !important;
 }
 
 .service--Desc--Img--Fused p{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.6rem !important;
     font-weight: 600;
     letter-spacing: 0.15rem;
     opacity: 0.7;
@@ -223,40 +236,41 @@ nav a:hover{
 
 /* Testimonial styles start */
 .testimonials--wrapper{
-    padding: 10rem;
+    padding-top: 5rem !important;
+    /* padding: 5rem !important; */
 }
 
 .testimonials{
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
+    flex-direction: row !important;
     text-align: center;
 }
 
 .testimonial{
-    padding: 0 2rem;
+    padding: 0 2rem !important;
 }
 
 .testimonials--heading{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem !important;
     font-weight: 900;
     letter-spacing: 0.35rem;
     text-align: center;
     opacity: 0.4;
     color:hsl(213, 9%, 39%);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem !important;
 }
 
 .profile--pic{
     border-radius: 50%;
-    width: 10rem;
-    height: 10rem;
+    width: 10rem !important;
+    height: 10rem !important;
     margin-bottom: 5rem;
 }
 
 .comment{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
     font-weight: 600;
     word-spacing: 00.25rem;
     color: hsl(213, 9%, 39%);
@@ -266,14 +280,14 @@ nav a:hover{
 
 .name{
     font-family: Fraunces, Arial, Helvetica, sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.75rem !important;
     font-weight: 900;
     margin-bottom: 1rem;
 }
 
 .designation{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
     font-weight: 600;
     color: hsl(212, 27%, 19%);
     letter-spacing: 0.1rem;
@@ -285,35 +299,35 @@ nav a:hover{
 /* Image Gallery styles start */
 .img--gallery{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25% !important;
 }
 
 .img--gallery--milkbottles{
     background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-milkbottles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 75vh !important;
 }
 
 .img--gallery--orange{
     background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-orange.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 75vh !important;
 }
 
 .img--gallery--cone{
     background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-cone.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 75vh !important;
 }
 
 .img--gallery--sugarcubes{
     background-image: url("https://siddheshshirke.files.wordpress.com/2022/04/image-gallery-sugarcubes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 75vh;
+    height: 75vh !important;
 }
 /* Image Gallery styles end */
 
@@ -326,7 +340,7 @@ footer{
 
 footer h1{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem !important;
     font-weight: 900;
     letter-spacing: 0.05rem;
     color: hsl(168, 34%, 41%);
@@ -343,16 +357,16 @@ footer h1{
 
 .footer--nav a{
     font-family: Barlow, Arial, Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem !important;
     font-weight: 600;
     letter-spacing: 0rem;
-    color: hsl(168, 34%, 41%);
-    opacity: 0.25rem;
-    transition: color 250ms ease-in-out;
+    color: hsl(168, 34%, 41%) !important;
+    opacity: 1 !important;
+    transition: color 250ms ease-in-out !important;
 }
 
 .footer--nav a:hover{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%) !important;
 }
 
 .social--media--icons{
@@ -365,6 +379,11 @@ footer h1{
 
 .social--media--icons a{
     margin-right: 3rem;
+}
+
+svg{
+    height: 5rem !important;
+    width: 5rem  !important;
 }
 
 #fb{
@@ -403,7 +422,7 @@ footer h1{
     fill: hsl(0, 0%, 100%)
 }
 /* Footer styles end */
-
+}
 /* Breakpoints start */
 /* Tablet Landscape */
 @media screen and (min-width: 901px) and (max-width: 1200px){
