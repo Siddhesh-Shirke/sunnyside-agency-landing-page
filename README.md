@@ -1,3 +1,14 @@
+# Sunnyside Digital Agency Landing Page
+This project is created in order to illustrate my UI development skills.
+
+ReactJS(HTML5, CSS3, Javascript ES6) were used to develop this landing page
+
+Netlify is used to deploy it.
+
+## Features:-
+  - Responsiveness, users are able to view the optimal layout of the landing page for Mobile Phones, Tablet(Portrait and Landscape), Desktop. 
+  - Hover states for all interactive elements on the page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
