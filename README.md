@@ -9,6 +9,9 @@ Netlify is used to deploy it.
   - Responsiveness, users are able to view the optimal layout of the landing page for Mobile Phones, Tablet(Portrait and Landscape), Desktop. 
   - Hover states for all interactive elements on the page.
 
+## View the landing page by clicking below link:-
+[Sunnyside Digital](https://sunnyside-digital.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
